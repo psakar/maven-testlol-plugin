@@ -3,7 +3,7 @@
     <groupId>tv.bodil</groupId>
     <artifactId>maven-testlol-plugin</artifactId>
     <packaging>maven-plugin</packaging>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.5.0</version>
     <name>Testlol</name>
     <url>http://github.com/bodil/testlol</url>
     <parent>
@@ -50,9 +50,9 @@
             <version>2.0</version>
         </dependency>
         <dependency>
-            <groupId>rhino</groupId>
-            <artifactId>js</artifactId>
-            <version>1.7R2</version>
+            <groupId>org.mozilla</groupId>
+            <artifactId>rhino</artifactId>
+            <version>1.7R4</version>
         </dependency>
         <dependency>
             <groupId>com.googlecode.jslint4java</groupId>
